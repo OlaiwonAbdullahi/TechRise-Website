@@ -59,7 +59,7 @@ const NavBar = () => {
         {/* Logo */}
         <div className="flex items-center">
           <a href="#" className="text-2xl font-bold text-[#0e4A00]">
-            Tech<span className="text-black">Rise</span>
+            <img src="/logo.png" alt="" srcset="" className=" h-auto w-20" />
           </a>
         </div>
 
