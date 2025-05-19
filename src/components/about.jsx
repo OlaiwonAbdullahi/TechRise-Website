@@ -1,3 +1,5 @@
+import techImage from "../assets/techImage.png";
+
 const About = () => {
   return (
     <section id="about" className="py-20 bg-white">
@@ -14,30 +16,48 @@ const About = () => {
               <div className="w-24 h-1 bg-[#0e4A00]  rounded-full"></div>
             </div>
 
-            <p className="text-gray-600 text-lg leading-relaxed">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
-              nostrum voluptatibus aperiam dolore expedita quo. Provident,
-              explicabo debitis. Non rerum voluptatibus quisquam dicta. Sunt
-              ducimus, assumenda expedita saepe ea nemo!
+            <p className="text-gray-600 text-md leading-relaxed">
+              TechRise Africa is a vibrant virtual community dedicated to
+              unlocking the full potential of African tech talent. We believe
+              Africa’s future lies in the hands of its innovators, creators, and
+              problem-solvers — and we’re here to empower them with the skills,
+              mentorship, and resources needed to thrive in the digital economy.
             </p>
 
-            <p className="text-gray-600 text-lg leading-relaxed">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
-              error hic totam ut asperiores laudantium esse aliquid distinctio
-              voluptatum eos similique, qui, ab cum et perspiciatis dicta quis
-              quam deleniti.
+            <p className="text-gray-600 text-md leading-relaxed">
+              <p>
+                Founded witha vision to connect, equip, and uplift, TechRise
+                AFrica is more than just a platform - its a movement. We focus
+                on pratical skill-building, growth opportunities, and real-world
+                guidance that help our members not just learn, but monetize
+                their talents and create impact.
+              </p><br />
+
+              <p>
+                We don't just teach tech; we build confidence, foster
+                creativity, and nuture leadership. Whether you're a beginner
+                eager to braek into the tech scene, a freelancer looking to
+                scale your income, or an enterpreneur ready to launch your
+                digital venture. TechRise Africa is your go-to communityfor
+                growth, support, and collaboration.
+              </p><br />
+
+              <p>Our mission is clear: To spark a digital revolution across Africa by equipping thousands of young talents witth future-ready skills, connectingthem to mentors and peers, inspiring a culture of innovation that resonates beyond borders.</p><br />
+              <p>
+                Join TechRise Africa and rise with thewave of Africa's tech rovolution.
+              </p>
             </p>
 
             {/* Stats section */}
             <div className="grid grid-cols-2 md:grid-cols-3 gap-6 pt-6">
               <div className="border border-gray-200 rounded-lg p-4 hover:border-[#0e4A00] transition-colors">
-                <div className="text-[#0e4A00] font-bold text-3xl">250+</div>
-                <div className="text-gray-600">Projects Completed</div>
+                <div className="text-[#0e4A00] font-bold text-3xl">200</div>
+                <div className="text-gray-600">Community Members</div>
               </div>
 
               <div className="border border-gray-200 rounded-lg p-4 hover:border-[#0e4A00] transition-colors">
                 <div className="text-[#0e4A00] font-bold text-3xl">95%</div>
-                <div className="text-gray-600">Client Satisfaction</div>
+                <div className="text-gray-600">Community Satisfaction</div>
               </div>
 
               <div className="border border-gray-200 rounded-lg p-4 hover:border-[#0e4A00] transition-colors">
@@ -57,7 +77,7 @@ const About = () => {
               {/* Main image */}
               <div className="relative rounded-lg overflow-hidden shadow-xl">
                 <img
-                  src="https://placehold.co/600x500"
+                  src={techImage}
                   alt="Tech Rise Team"
                   className="w-full h-full object-cover"
                 />

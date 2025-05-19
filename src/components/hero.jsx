@@ -1,5 +1,6 @@
 import { GoArrowUpRight } from "react-icons/go";
 import { IoIosArrowRoundForward } from "react-icons/io";
+import newImage from "../assets/newImage.png";
 
 const Hero = () => {
   return (
@@ -10,19 +11,22 @@ const Hero = () => {
           <div className="w-full md:w-1/2 space-y-6">
             <div className="inline-block">
               <span className="bg-[#0e4A00]/10 border border-[#0e4A00]/20 text-[#0e4A00] font-medium py-1 px-3 rounded-full text-sm">
-                Innovate • Transform • Succeed
+                Learn • Grow • Thrive
               </span>
             </div>
 
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
-              Elevate Your Business With{" "}
-              <span className="text-[#0e4A00]">Digital Excellence</span>
+              Raising the Next Tech Giants
+              <span className="text-[#0e4A00]"> From Africa</span>
             </h1>
 
-            <p className="text-lg text-gray-600 max-w-lg">
-              We transform ideas into powerful digital solutions that drive
-              growth and innovation for forward-thinking companies around the
-              globe.
+            <p className="text-md text-gray-600 max-w-lg">
+              TechRise Africa is commited to raising the next generation of tech
+              giants from the continent. We empower young Africans with digital
+              skills, mentorship, and growth opportunities. Our vibrant
+              community fosters collaboration, innovation, and real world
+              impact. Together, we're shaping a future where Africa leads in
+              global tech. Join the movement.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
@@ -41,7 +45,7 @@ const Hero = () => {
             <div className="absolute inset-0 bg-[#0e4A00]/10 rounded-2xl transform rotate-6 scale-95 -z-10"></div>
             <div className="relative overflow-hidden rounded-2xl ">
               <img
-                src="https://placehold.co/600x400"
+                src={newImage}
                 alt="Tech Rise Digital Solutions"
                 className="w-full h-full object-cover"
               />

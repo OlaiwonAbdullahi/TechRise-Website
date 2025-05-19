@@ -205,7 +205,7 @@ const Contact = () => {
                 href="mailto:contact@techrise.com"
                 className="text-[#0e4A00] hover:underline"
               >
-                contact@techrise.com
+                techriseafrica001@gmail.com
               </a>
             </p>
           </div>
@@ -233,7 +233,7 @@ const Contact = () => {
                 href="tel:+14159876543"
                 className="text-[#0e4A00] hover:underline"
               >
-                +1 (415) 987-6543
+                08156730652
               </a>
             </p>
           </div>
@@ -263,9 +263,9 @@ const Contact = () => {
             </div>
             <h3 className="text-lg font-semibold mb-2">Visit Us</h3>
             <p className="text-gray-600">
-              123 Tech Avenue
+             Ladoke Akintola University of Technology
               <br />
-              San Francisco, CA 94103
+              Ogbomosho, Oyo State.
             </p>
           </div>
         </div>
