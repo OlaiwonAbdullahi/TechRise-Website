@@ -50,7 +50,7 @@ const Contact = () => {
           </h2>
           <div className="w-20 h-1 bg-[#0e4A00] mx-auto rounded-full mb-6"></div>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            Have questions about our services or want to start a project? Fill
+            Have questions about our programs or want to join the community? Fill
             out the form below and our team will get back to you as soon as
             possible.
           </p>
@@ -263,9 +263,9 @@ const Contact = () => {
             </div>
             <h3 className="text-lg font-semibold mb-2">Visit Us</h3>
             <p className="text-gray-600">
-             Ladoke Akintola University of Technology
+             Stadium Area 
               <br />
-              Ogbomosho, Oyo State.
+              Ogbomosho North, Oyo State.
             </p>
           </div>
         </div>

@@ -26,8 +26,8 @@ const About = () => {
 
             <p className="text-gray-600 text-md leading-relaxed">
               <p>
-                Founded witha vision to connect, equip, and uplift, TechRise
-                AFrica is more than just a platform - its a movement. We focus
+                Founded with a vision to connect, equip, and uplift, TechRise
+                Africa is more than just a platform - its a movement. We focus
                 on pratical skill-building, growth opportunities, and real-world
                 guidance that help our members not just learn, but monetize
                 their talents and create impact.
@@ -38,13 +38,13 @@ const About = () => {
                 creativity, and nuture leadership. Whether you're a beginner
                 eager to braek into the tech scene, a freelancer looking to
                 scale your income, or an enterpreneur ready to launch your
-                digital venture. TechRise Africa is your go-to communityfor
+                digital venture. TechRise Africa is your go-to community for
                 growth, support, and collaboration.
               </p><br />
 
-              <p>Our mission is clear: To spark a digital revolution across Africa by equipping thousands of young talents witth future-ready skills, connectingthem to mentors and peers, inspiring a culture of innovation that resonates beyond borders.</p><br />
+              <p>Our mission is clear: To spark a digital revolution across Africa by equipping thousands of young talents witth future-ready skills, connecting them to mentors and peers, inspiring a culture of innovation that resonates beyond borders.</p><br />
               <p>
-                Join TechRise Africa and rise with thewave of Africa's tech rovolution.
+                Join TechRise Africa and rise with the wave of Africa's tech rovolution.
               </p>
             </p>
 

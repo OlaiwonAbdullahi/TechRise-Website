@@ -1,6 +1,7 @@
 import ceo from "../assets/ceoImage.jpg";
-import moderator from "../assets/moderatorImage.jpg";
-import techlead from "../assets/techleadimage2.jpg";
+import moderator from "../assets/mutmainnah.jpeg";
+import techlead from "../assets/myimage.jpg";
+import generalsecetary from "../assets/hamdallah.png"
 
 const Services = () => {
   return (
@@ -9,7 +10,7 @@ const Services = () => {
         {/* Section header */}
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            Our <span className="text-[#0e4A00]">Services</span>
+            Our <span className="text-[#0e4A00]">Programs</span>
           </h2>
           <div className="w-24 h-1 bg-[#0e4A00] mx-auto rounded-full"></div>
           <p className="mt-4 text-gray-600 max-w-2xl mx-auto">
@@ -164,13 +165,13 @@ const Services = () => {
             </h4>
             <p className="text-[#0e4A00] font-medium">Community Moderator</p>
             <p className="mt-1 text-sm text-gray-600">
-              Building and nurturing our tech community.
+              Planning, Cooridnating and Overseeing TechRise Africa Progrms.
             </p>
 
             {/* Social Icons */}
             <div className="flex justify-center gap-4 mt-3 text-xl text-[#0e4A00]">
               <a
-                href="https://www.facebook.com/profile.php?id=61550959360095"
+                href="https://www.facebook.com/profile.php?id=61576180051240"
                 target="_blank"
                 rel="noopener noreferrer">
                 <i className="bi bi-facebook hover:text-gray-700"></i>
@@ -182,10 +183,10 @@ const Services = () => {
                 <i className="bi bi-whatsapp hover:text-gray-700"></i>
               </a>
               <a
-                href="https://www.linkedin.com/in/alchemistoftech/"
+                href="https://www.instagram.com/mainnah_writes?igsh=MXM0Znc4M2hrYndwaA==/"
                 target="_blank"
                 rel="noopener noreferrer">
-                <i className="bi bi-linkedin hover:text-gray-700"></i>
+                <i className="bi bi-instagram hover:text-gray-700"></i>
               </a>
             </div>
           </div>
@@ -220,10 +221,22 @@ const Services = () => {
                 <i className="bi bi-whatsapp hover:text-gray-700"></i>
               </a>
               <a
-                href="www.linkedin.com/in/ishola-fawaz-470419284"
+                href="https://www.linkedin.com/in/ishola-fawaz-470419284/"
                 target="_blank"
                 rel="noopener noreferrer">
                 <i className="bi bi-linkedin hover:text-gray-700"></i>
+              </a>
+              <a
+                href="https://x.com/fawaz_isho33190?t=oGMOodF12KpBGbLZxRNLhw&s=09"
+                target="_blank"
+                rel="noopener noreferrer">
+                <i className="bi bi-twitter hover:text-gray-700"></i>
+              </a>
+               <a
+                href="https://www.instagram.com/fawazgraphics?igsh=MTMzaWR2dWt4anVicw=="
+                target="_blank"
+                rel="noopener noreferrer">
+                <i className="bi bi-instagram hover:text-gray-700"></i>
               </a>
               <a
                 href="https://github.com/Ishola-Fawaz"
@@ -233,6 +246,50 @@ const Services = () => {
               </a>
             </div>
           </div>
+
+            {/* General Secetary */}
+          <div className="text-center">
+            <img
+              src={generalsecetary}
+              alt="General Secetary"
+              className="w-50 h-50 mx-auto rounded-full object-cover shadow-md"
+            />
+            <h4 className="mt-4 text-lg font-semibold text-gray-800">
+              Hassan Hamdallah
+            </h4>
+            <p className="text-[#0e4A00] font-medium">General Secetary </p>
+            <p className="mt-1 text-sm text-gray-600">
+             Documentation and General Planning of TechRise Activities
+            </p>
+
+            {/* Social Icons */}
+            <div className="flex justify-center gap-4 mt-3 text-xl text-[#0e4A00]">
+              <a
+                href="https://www.facebook.com/share/1NDexo3wQk/"
+                target="_blank"
+                rel="noopener noreferrer">
+                <i className="bi bi-facebook hover:text-gray-700"></i>
+              </a>
+              <a
+                href="https://wa.link/krntx5"
+                target="_blank"
+                rel="noopener noreferrer">
+                <i className="bi bi-whatsapp hover:text-gray-700"></i>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/fayemi-bunyamin-445b96304?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                target="_blank"
+                rel="noopener noreferrer">
+                <i className="bi bi-linkedin hover:text-gray-700"></i>
+              </a>
+              <a
+                href="https://www.instagram.com/yamin_the_right_guy?igsh=YzljYTk1ODg3Zg=="
+                target="_blank"
+                rel="noopener noreferrer">
+                <i className="bi bi-instagram hover:text-gray-700"></i>
+              </a>
+            </div>
+            </div>
         </div>
       </div>
     </section>
