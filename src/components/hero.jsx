@@ -30,11 +30,11 @@ const Hero = () => {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
-              <button className="bg-[#0e4A00] flex items-center gap-2 hover:bg-[#0a3800] text-white font-medium px-6 py-3 rounded-lg transition-all duration-300 shadow-md hover:shadow-lg">
+              <button className="bg-[#0e4A00] flex items-center justify-center gap-2 hover:bg-[#0a3800] text-white font-medium px-6 py-3 rounded-lg transition-all duration-300 shadow-md hover:shadow-lg">
                 Get Started
                 <GoArrowUpRight className=" size-5" />
               </button>
-              <button className="border flex items-center gap-2 border-gray-300 hover:border-[#0e4A00] text-gray-700 hover:text-[#0e4A00] font-medium px-6 py-3 rounded-lg transition-all duration-300 hover:bg-[#0e4A00]/5">
+              <button className="border flex items-center justify-center gap-2 border-gray-300 hover:border-[#0e4A00] text-gray-700 hover:text-[#0e4A00] font-medium px-6 py-3 rounded-lg transition-all duration-300 hover:bg-[#0e4A00]/5">
                 Learn More <IoIosArrowRoundForward className=" size-7" />{" "}
               </button>
             </div>
