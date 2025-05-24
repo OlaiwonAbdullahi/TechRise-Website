@@ -1,7 +1,8 @@
 import ceo from "../assets/ceoImage.jpg";
 import moderator from "../assets/mutmainnah.jpeg";
 import techlead from "../assets/myimage.jpg";
-import generalsecetary from "../assets/hamdallah.png"
+import generalsecetary from "../assets/hamdallah.png";
+import designlead from "../assets/designLead.jpg";
 
 const Services = () => {
   return (
@@ -135,19 +136,22 @@ const Services = () => {
               <a
                 href="https://www.facebook.com/profile.php?id=61550959360095"
                 target="_blank"
-                rel="noopener noreferrer">
+                rel="noopener noreferrer"
+              >
                 <i className="bi bi-facebook hover:text-gray-700"></i>
               </a>
               <a
                 href="https://chat.whatsapp.com/G3zKK3gJry6HJOKPQK3OPl"
                 target="_blank"
-                rel="noopener noreferrer">
+                rel="noopener noreferrer"
+              >
                 <i className="bi bi-whatsapp hover:text-gray-700"></i>
               </a>
               <a
                 href="https://www.linkedin.com/in/alchemistoftech/"
                 target="_blank"
-                rel="noopener noreferrer">
+                rel="noopener noreferrer"
+              >
                 <i className="bi bi-linkedin hover:text-gray-700"></i>
               </a>
             </div>
@@ -173,19 +177,22 @@ const Services = () => {
               <a
                 href="https://www.facebook.com/profile.php?id=61576180051240"
                 target="_blank"
-                rel="noopener noreferrer">
+                rel="noopener noreferrer"
+              >
                 <i className="bi bi-facebook hover:text-gray-700"></i>
               </a>
               <a
                 href="https://chat.whatsapp.com/G3zKK3gJry6HJOKPQK3OPl"
                 target="_blank"
-                rel="noopener noreferrer">
+                rel="noopener noreferrer"
+              >
                 <i className="bi bi-whatsapp hover:text-gray-700"></i>
               </a>
               <a
                 href="https://www.instagram.com/mainnah_writes?igsh=MXM0Znc4M2hrYndwaA==/"
                 target="_blank"
-                rel="noopener noreferrer">
+                rel="noopener noreferrer"
+              >
                 <i className="bi bi-instagram hover:text-gray-700"></i>
               </a>
             </div>
@@ -211,43 +218,49 @@ const Services = () => {
               <a
                 href="https://www.facebook.com/"
                 target="_blank"
-                rel="noopener noreferrer">
+                rel="noopener noreferrer"
+              >
                 <i className="bi bi-facebook hover:text-gray-700"></i>
               </a>
               <a
                 href="https://wa.me/2348052350516"
                 target="_blank"
-                rel="noopener noreferrer">
+                rel="noopener noreferrer"
+              >
                 <i className="bi bi-whatsapp hover:text-gray-700"></i>
               </a>
               <a
                 href="https://www.linkedin.com/in/ishola-fawaz-470419284/"
                 target="_blank"
-                rel="noopener noreferrer">
+                rel="noopener noreferrer"
+              >
                 <i className="bi bi-linkedin hover:text-gray-700"></i>
               </a>
               <a
                 href="https://x.com/fawaz_isho33190?t=oGMOodF12KpBGbLZxRNLhw&s=09"
                 target="_blank"
-                rel="noopener noreferrer">
+                rel="noopener noreferrer"
+              >
                 <i className="bi bi-twitter hover:text-gray-700"></i>
               </a>
-               <a
+              <a
                 href="https://www.instagram.com/fawazgraphics?igsh=MTMzaWR2dWt4anVicw=="
                 target="_blank"
-                rel="noopener noreferrer">
+                rel="noopener noreferrer"
+              >
                 <i className="bi bi-instagram hover:text-gray-700"></i>
               </a>
               <a
                 href="https://github.com/Ishola-Fawaz"
                 target="_blank"
-                rel="noopener noreferrer">
+                rel="noopener noreferrer"
+              >
                 <i className="bi bi-github hover:text-gray-700"></i>
               </a>
             </div>
           </div>
 
-            {/* General Secetary */}
+          {/* General Secetary */}
           <div className="text-center">
             <img
               src={generalsecetary}
@@ -259,7 +272,7 @@ const Services = () => {
             </h4>
             <p className="text-[#0e4A00] font-medium">General Secetary </p>
             <p className="mt-1 text-sm text-gray-600">
-             Documentation and General Planning of TechRise Activities
+              Documentation and General Planning of TechRise Activities
             </p>
 
             {/* Social Icons */}
@@ -267,29 +280,75 @@ const Services = () => {
               <a
                 href="https://www.facebook.com/share/1NDexo3wQk/"
                 target="_blank"
-                rel="noopener noreferrer">
+                rel="noopener noreferrer"
+              >
                 <i className="bi bi-facebook hover:text-gray-700"></i>
               </a>
               <a
                 href="https://wa.link/krntx5"
                 target="_blank"
-                rel="noopener noreferrer">
+                rel="noopener noreferrer"
+              >
                 <i className="bi bi-whatsapp hover:text-gray-700"></i>
               </a>
               <a
                 href="https://www.linkedin.com/in/fayemi-bunyamin-445b96304?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                 target="_blank"
-                rel="noopener noreferrer">
+                rel="noopener noreferrer"
+              >
                 <i className="bi bi-linkedin hover:text-gray-700"></i>
               </a>
               <a
                 href="https://www.instagram.com/yamin_the_right_guy?igsh=YzljYTk1ODg3Zg=="
                 target="_blank"
-                rel="noopener noreferrer">
+                rel="noopener noreferrer"
+              >
                 <i className="bi bi-instagram hover:text-gray-700"></i>
               </a>
             </div>
+          </div>
+
+          {/* Graphics Design Team Lead */}
+          <div className="text-center">
+            <img
+              src={designlead}
+              alt="Graphics Design Team Lead"
+              className="w-50 h-50 mx-auto rounded-full object-cover shadow-md"
+            />
+            <h4 className="mt-4 text-lg font-semibold text-gray-800">
+              Fayemi Bunyamin Sewedo
+            </h4>
+            <p className="text-[#0e4A00] font-medium">Graphics Design Team Lead</p>
+            <p className="mt-1 text-sm text-gray-600">
+              Plays a crucial role in shaping the brand visual identity and communication.
+            </p>
+
+            {/* Social Icons */}
+            <div className="flex justify-center gap-4 mt-3 text-xl text-[#0e4A00]">
+              <a
+                href="https://www.facebook.com/share/1AQsBZrxgQ/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="bi bi-facebook hover:text-gray-700"></i>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/fayemi-bunyamin-445b96304?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="bi bi-linkedin hover:text-gray-700"></i>
+              </a>
+              <a
+                href="https://www.instagram.com/yamin_the_right_guy?igsh=YzljYTk1ODg3Zg=="
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="bi bi-instagram hover:text-gray-700"></i>
+              </a>
             </div>
+          </div>
+
         </div>
       </div>
     </section>
